@@ -1,7 +1,7 @@
 /**
  * Created by hcy on 2017/5/7.
  */
-Array.prototype.arrayToHeavy = function () {
+Array.prototype.arrayToHeavy1 = function () {
     var result = [this[0]];//把数组的第一个元素放入结果数组中,注意this的指向，是将来调用这个原型方法的数组
 
     for(var i = 1;i < this.length;i++){
@@ -20,7 +20,7 @@ Array.prototype.arrayToHeavy = function () {
         }
     }
  return result;
-}
+};
 
 var arr = [1,23,22,33,33,"33","a","1"];
-console.log(arr.arrayToHeavy())
+console.log(arr.arrayToHeavy1())
