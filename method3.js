@@ -15,4 +15,6 @@ Array.prototype.arrayToHeavy3  =function () {
 };
 
 var arr = [1,1,23,22,33,33,"33","a","1","a","b","b","23","33"];
+//对象的key默认被转为字符串
+
 console.log(arr.arrayToHeavy3());
